@@ -22,7 +22,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   for i in cheese_types do 
     if array.include?(cheese_types[i])
-      cheese_type
+      puts cheese_types[i]
     end
   end
 end
